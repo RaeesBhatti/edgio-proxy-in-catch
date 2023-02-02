@@ -1,17 +1,28 @@
 {
-  "name": "edgio-proxy-in-catch",
-  "version": "0.1.0",
-  "private": true,
   "scripts": {
+    "edgio:dev": "edgio dev",
+    "edgio:build": "edgio build",
+    "edgio:deploy": "edgio deploy",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+  "name": "edgio-proxy-in-catch",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "@next/font": "13.1.6",
     "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@edgio/cli": "^6.1.0",
+    "@edgio/core": "^6.1.0",
+    "@edgio/devtools": "^6.1.0",
+    "@edgio/next": "^6.1.0",
+    "@edgio/prefetch": "^6.1.0",
+    "@edgio/react": "^6.1.0"
   }
 }
